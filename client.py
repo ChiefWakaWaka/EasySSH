@@ -2,7 +2,7 @@ import os
 import csv
 
 def setup():
-    file = open('addressList.csv')
+    file = open('~/.easyssh/addressList.csv')
     addresses = list(csv.reader(file))
     return addresses
 
